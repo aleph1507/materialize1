@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!-- Compiled and minified CSS -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+
+    <body>
+
+      <div class="container">
+        <!-- CAROUSEL -->
+        <h1>CAROUSEL</h1>
+        <div class="carousel">
+          <a href="#one!" class="carousel-item">
+            <img src="nature1.jpeg" alt="">
+          </a>
+          <a href="#two!" class="carousel-item">
+            <img src="nature2.jpeg" alt="">
+          </a>
+          <a href="#three!" class="carousel-item">
+            <img src="nature3.jpeg" alt="">
+          </a>
+          <a href="#four!" class="carousel-item">
+            <img src="nature4.jpeg" alt="">
+          </a>
+          <a href="#five!" class="carousel-item">
+            <img src="nature5.jpeg" alt="">
+          </a>
+        </div>
+
+        <!-- CAROUSEL FULL SLIDER -->
+        <h1>CAROUSEL FULL SLIDER</h1>
+        <div class="carousel carousel-slider">
+          <a href="#one!" class="carousel-item"><img src="nature1.jpeg" alt=""></a>
+          <a href="#two!" class="carousel-item"><img src="nature2.jpeg" alt=""></a>
+          <a href="#three!" class="carousel-item"><img src="nature3.jpeg" alt=""></a>
+          <a href="#four!" class="carousel-item"><img src="nature4.jpeg" alt=""></a>
+          <a href="#five" class="carousel-item"><img src="nature5.jpeg" alt=""></a>
+        </div>
+
+        <!-- COLLAPSIBLE -->
+        <h1>COLLAPSIBLE</h1>
+        <ul class="collapsible" data-collapsible="accordion">
+          <li>
+            <div class="collapsible-header">
+              <i class="material-icons">filter_drama</i>First
+            </div>
+            <div class="collapsible-body">
+              <span>Lorem ipsum dolor sit amet,
+                consectetur adipisicing elit. Rerum, iure!</span>
+            </div>
+          </li>
+          <li class="active">
+            <div class="collapsible-header">
+              <i class="material-icons">filter_drama</i>Second
+            </div>
+            <div class="collapsible-body">
+              <span>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Facere, consectetur!
+              </span>
+            </div>
+          </li>
+          <li>
+            <div class="collapsible-header">
+              <i class="material-icons">filter_drama</i>Third
+            </div>
+            <div class="collapsible-body">
+              <span>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Recusandae, similique!
+              </span>
+            </div>
+          </li>
+        </ul>
+
+        <!-- TOASTS -->
+        <h1>TOASTS</h1>
+        <a onclick="M.toast({html: 'Post Saved', displayLength: 1000})" class="btn">Toast!</a>
+
+        <!-- TOOLTIPS -->
+        <h1>TOOLTIPS</h1>
+        <a href="" class="btn tooltipped"
+          data-position="top"
+          data-delay="2000"
+          >Hover Me</a>
+        <a href="" class="btn tooltipped"
+          data-position="bottom"
+          data-tooltip="I am bottom tooltip">Hover Me</a>
+        <a href="" class="btn tooltipped"
+          data-position="left"
+          data-tooltip="I am left tooltip">Hover Me</a>
+        <a href="" class="btn tooltipped"
+          data-position="right"
+          data-tooltip="I am right tooltip">Hover Me</a>
+
+        <!-- DROPDOWN -->
+        <h1>DROPDOWN</h1>
+        <a href="#"
+          class="dropdown-button btn"
+          data-target="dropdown1"
+          >Dropdown</a>
+
+        <ul id="dropdown1" class="dropdown-content">
+          <li><a href="#!">one</a></li>
+          <li><a href="#!">two</a></li>
+          <li class="divider"></li>
+          <li><a href="#!">three</a></li>
+          <li><a href="#!"><i class="material-icons">view_module</i>four</a></li>
+          <li><a href="#!"><i class="material-icons">cloud</i>five</a></li>
+        </ul>
+
+        <!-- MATERIAL BOXED -->
+        <h1>MATERIAL BOXED</h1>
+
+          <img src="http://materializecss.com/images/sample-1.jpg"
+            alt="" width="40%" data-caption="Trees"
+            class="materialboxed">
+
+        <!-- SLIDER -->
+        <h1>SLIDER</h1>
+        <div class="slider">
+          <ul class="slides">
+            <li>
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZoWwQ6kLW_rvxsgTPwiHFJJ_CuQ9_HkFb-A2kS9koyXY7b-kD" alt="">
+              <div class="caption center-align">
+                <h3>This is a caption</h3>
+                <h5 class="light grey-text text-lighten-3">Here is out slogan</h5>
+              </div>
+            </li>
+            <li>
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTce-_I-EuUhXvDMXzJwvdKLCTfvPTY0Y1YZZk3DhkouWxltJsuYg" alt="">
+              <div class="caption left-align">
+                <h3>This is a caption</h3>
+                <h5 class="light grey-text text-lighten-3">Here is out slogan</h5>
+              </div>
+            </li><li>
+              <img src="http://dretchstorm.com/wp-content/uploads/2017/08/morning-nature-hd-18-morning-nature-lovely-photos.jpg" alt="">
+              <div class="caption right-align">
+                <h3>This is a caption</h3>
+                <h5 class="light grey-text text-lighten-3">Here is out slogan</h5>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <!-- MODAL -->
+        <h1>MODAL</h1>
+        <!-- MODAL TRIGGERS -->
+        <a href="#modal1" class="waves-effect waves-light btn modal-trigger">Modal1</a>
+        <a href="#modal2" class="btn waves-effect red modal-trigger">Modal2</a>
+
+        <!-- MODAL STRUCTURE -->
+        <div id="modal1" class="modal">
+          <div class="modal-content">
+            <h4>Modal Header</h4>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt, ut?
+            </p>
+          </div>
+          <div class="modal-footer">
+             <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">Agree</a>
+          </div>
+        </div>
+
+        <div id="modal2" class="modal">
+          <div class="modal-content">
+            <h4>Modal 2 header</h4>
+            <p>Lorem ipsum <br>dolor sit amet.</p>
+          </div>
+          <div class="modal-footer">
+            <a href="#!" class="modal-action modal-close waves-effect waves-red btn-flat">Button</a>
+          </div>
+        </div>
+
+
+      </div> <!-- ./container -->
+
+      <div style="height:500px;"></div>
+
+      <!-- Compiled and minified JavaScript -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+      <script>
+        // carousel
+         var elem = document.querySelector('.carousel');
+         var instance = M.Carousel.init(elem);
+
+         elem = document.querySelectorAll('.carousel-slider');
+         instance = M.Carousel.init(elem, {fullWidth:true});
+
+         var elem = document.querySelectorAll('.collapsible');
+         var instance = M.Collapsible.init(elem);
+
+         // tooltip
+         var elem = document.querySelectorAll('.tooltipped');
+         var instance = M.Tooltip.init(elem, {html: "<h2>A Tool</h2><small>html option</small>"});
+
+         //Fire off Toast
+         M.toast({html: 'Start', displayLength: 1500, classes: "rounded"});
+
+         //dropdown1
+         var elem = document.querySelectorAll('.dropdown-button');
+         var instance = M.Dropdown.init(elem);
+
+         //materialboxed
+         var elem = document.querySelectorAll('.materialboxed');
+         var instance = M.Materialbox.init(elem);
+
+         //SLIDER
+         var elem = document.querySelectorAll('.slider');
+         var instance = M.Slider.init(elem);
+
+         //Modal
+         var elem = document.querySelectorAll('.modal');
+         var instance = M.Modal.init(elem);
+      </script>
+    </body>
+  </html>
